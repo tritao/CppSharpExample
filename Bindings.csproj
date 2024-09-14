@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="CppSharp\src\AST\CppSharp.AST.csproj" />
+    <ProjectReference Include="CppSharp\src\Core\CppSharp.csproj" />
+    <ProjectReference Include="CppSharp\src\CppParser\Bindings\CSharp\CppSharp.Parser.CSharp.csproj" />
+    <ProjectReference Include="CppSharp\src\Generator\CppSharp.Generator.csproj" />
+    <ProjectReference Include="CppSharp\src\Parser\CppSharp.Parser.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
